@@ -27,7 +27,7 @@ function Hero(props) {
       {/* Left col */}
       <div className="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
         <p className="uppercase tracking-loose w-full">{props.label}</p>
-        <h1 className="my-4 text-5xl font-bold leading-tight">{props.heading}!</h1>
+        <h1 className="my-4 text-5xl font-bold leading-tight">{props.heading}!?!?!</h1>
         <div className="leading-normal text-2xl mb-8">
           <PortableText blocks={props.tagline} />
         </div>
